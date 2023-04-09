@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,900;1,400&display=swap');
 html{
     font-family: 'Playfair Display', serif;
-    background:url(img/walpaper.jpg);
+    background:url(walpaper.jpg);
 }
 body header .titulodoido{
     margin-top: 60px;
@@ -125,7 +125,7 @@ body main .imagens{
 }
 body main .rock {
     display: flex;
-    background:url(img/9lr7qti1whm61.jpg);
+    background:url(9lr7qti1whm61.jpg);
     justify-content: center;
    background-color: blueviolet;
    width: 350px;
@@ -183,7 +183,7 @@ body main  .fadeInLeft2{
 /*-------------------------------------------------------------------------------------------------*/
 body main .funk{
     display: flex;
-    background:url(img/DJdE2dyXgAAw_5e.jpg);
+    background:url(DJdE2dyXgAAw_5e.jpg);
     justify-content: center;
    /* background-color: rgb(43, 226, 52); */
    width: 350px;
