@@ -5,6 +5,11 @@ html{
 }
 
 @media(min-width: 50px) and (max-width:450px){
+    html{
+    font-family: 'Playfair Display', serif;
+    background:url(img/walpaper.jpg)center;
+        background-size: auto;
+}
     body header .titulodoido{
         margin-top: 60px;
         font-style: italic;
