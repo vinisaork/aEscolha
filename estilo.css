@@ -1,9 +1,255 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,900;1,400&display=swap');
 html{
     font-family: 'Playfair Display', serif;
-    background:url(img/walpaper.jpg)no-repeat;
-    background-size:cover;
+    background:url(img/walpaper.jpg);
 }
+
+@media(min-width: 50px) and (max-width:450px){
+    body header .titulodoido{
+        margin-top: 60px;
+        font-style: italic;
+        font-size: 50px;
+        display: flex;
+       justify-content: center;
+        color:rgb(255, 255, 255);
+        
+    }
+    body header  .fadeInTop{
+        -webkit-animation: fadeInTop 1.0s both;
+        -moz-animation: fadeInTop 1.0s both;
+        -o-animation: fadeInTop 1.0s both;
+        animation: fadeInTop 1.0s both;
+    }
+    
+    
+    
+    @-webkit-keyframes fadeInTop {
+        0%{
+            opacity: 0;
+            -webkit-transform: translateY(-100px)
+        }
+        100%{
+            opacity: 1;
+            -webkit-transform: translateY(0px);
+        }
+    }
+    @-moz-keyframes fadeInTop {
+        0%{
+            opacity: 0;
+            -moz-transform: translateY(-100px)
+        }
+        100%{
+            opacity: 1;
+            -moz-transform: translateY(0px);
+        }
+    }
+    @-o-keyframes fadeInTop {
+        0%{
+            opacity: 0;
+            -o-transform: translateY(-100px)
+        }
+        100%{
+            opacity: 1;
+            -o-transform: translateY(0);
+        }
+    }
+    @keyframes fadeInTop {
+        0%{
+            opacity: 0;
+            transform: translateY(-100px)
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    /*-------------------------------------------------------------------------------------------------*/
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    body main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    body main .botoes{
+        display: flex;
+        justify-content: center;
+        gap:50px;
+        
+    }
+    body main .botaofunk{
+        background-color: rgb(173, 65, 65);
+        color: azure;
+        font-size: 17px;
+        height: 50px;
+        width: 70px;
+        border: none;
+        border-radius: 6px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    body main .botaofunk:hover{
+        background-color: rgb(49, 7, 7);
+        transition: 0.5s;
+        cursor: pointer;
+        
+    }
+    body main .botaorock{
+        background-color: rgb(6, 224, 123);
+        color: azure;
+        font-size: 17px;
+        height: 50px;
+        width: 70px;
+        border: none;
+        border-radius: 6px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    body main .botaorock:hover{
+        background-color: rgb(7, 49, 35);
+        transition: 0.5s;
+        cursor: pointer;
+        
+    }
+    body main .imagens{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        gap:20px;
+        height: 400px;
+    }
+    body main .rock {
+        display: flex;
+        background:url(img/9lr7qti1whm61.jpg) center;
+        width:250px ;
+        height:200px ;
+       
+        justify-content: center;
+       background-color: blueviolet;
+     
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    }
+    body main  .fadeInLeft2{
+        -webkit-animation: fadeInLeft2 1.2s both;
+        -moz-animation: fadeInLeft2 1.2s both;
+        -o-animation: fadeInLeft2 1.2s both;
+        animation: fadeInLeft2 1.2s both;
+    }
+    @-webkit-keyframes fadeInLeft2 {
+        0%{
+            opacity: 0;
+            -webkit-transform: translateX(-550px)
+        }
+        100%{
+            opacity: 1;
+            -webkit-transform: translateX(0);
+        }
+    }
+    @-moz-keyframes fadeInLeft2 {
+        0%{
+            opacity: 0;
+            -moz-transform: translateX(-550px)
+        }
+        100%{
+            opacity: 1;
+            -moz-transform: translateX(0);
+        }
+    }
+    @-o-keyframes fadeInLeft2 {
+        0%{
+            opacity: 0;
+            -o-transform: translateX(-550px)
+        }
+        100%{
+            opacity: 1;
+            -o-transform: translateX(0);
+        }
+    }
+    @keyframes fadeInLeft2 {
+        0%{
+            opacity: 0;
+            transform: translateX(-550px)
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    /*-------------------------------------------------------------------------------------------------*/
+    body main .funk{
+        display: flex;
+        background:url(img/DJdE2dyXgAAw_5e.jpg)center;
+        justify-content: center;
+       /* background-color: rgb(43, 226, 52); */
+       width:250px ;
+        height:200px ;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    }
+    body main  .fadeInRight2{
+        -webkit-animation: fadeInRight2 1.2s both;
+        -moz-animation: fadeInRight2 1.2s both;
+        -o-animation: fadeInRight2 1.2s both;
+        animation: fadeInRight2 1.2s both;
+    }
+    @-webkit-keyframes fadeInRight2 {
+        0%{
+            opacity: 0;
+            -webkit-transform: translateX(-550px)
+        }
+        100%{
+            opacity: 1;
+            -webkit-transform: translateX(0);
+        }
+    }
+    @-moz-keyframes fadeInRight2 {
+        0%{
+            opacity: 0;
+            -moz-transform: translateX(+550px)
+        }
+        100%{
+            opacity: 1;
+            -moz-transform: translateX(0);
+        }
+    }
+    @-o-keyframes fadeInRight2 {
+        0%{
+            opacity: 0;
+            -o-transform: translateX(+550px)
+        }
+        100%{
+            opacity: 1;
+            -o-transform: translateX(0);
+        }
+    }
+    @keyframes fadeInRight2 {
+        0%{
+            opacity: 0;
+            transform: translateX(+550px)
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+
+}
+@media(min-width:451px) and (max-width:1024px){}
+@media(min-width:1025px) and (max-width:1280px){}
+
+@media (min-width:1281px) and (max-width:5066px){
+
 body header .titulodoido{
     margin-top: 60px;
     font-style: italic;
@@ -238,4 +484,5 @@ body main  .fadeInRight2{
         opacity: 1;
         transform: translateX(0);
     }
+}
 }
